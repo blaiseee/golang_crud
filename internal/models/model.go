@@ -6,3 +6,8 @@ type Post struct {
 	Body   string `json:"body"`
 	UserID int    `json:"userId"`
 }
+
+type UploadImageRequest struct {
+	FileName string `json:"file_name"`
+	FileData string `json:"file_data"`
+}
